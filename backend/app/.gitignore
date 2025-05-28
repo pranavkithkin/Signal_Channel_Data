@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# VSCode
+.vscode/
+
+# Telethon session files
+*.session
+
+# Data and session outputs (optional, if you don't want to track them)
+data/sessions/
+data/*.csv
+
+# Simulation outputs (optional)
+../../simulations/
+../../static/charts/
+
+# OS files
+.DS_Store
+Thumbs.db

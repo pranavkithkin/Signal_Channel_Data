@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Signal Extractor | Trading Dashboard</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  {% include 'nav.html' %}
+  <div class="main-layout">
+    <aside class="sidebar">
+      <h2>Saved Sessions</h2>
+      <ul>
+        {% for session in sessions %}
+          <li>
+            <strong>{{ session.name }}</strong><br>
+            Created: {{ session.created|datetimeformat }}<br>
+            Modified: {{ session.modified|datetimeformat }}
+          </li>
+        {% else %}
+          <li>No sessions found.</li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <main>
+      <h1>Extract Telegram Signals</h1>
+      <form id="extractForm" method="post" action="{{ url_for('extract_signals_api') }}">
+        <label for="channel_id">Channel ID:</label>
+        <input type="number" id="channel_id" name="channel_id" required><br>
+
+        <label for="access_hash">Access Hash:</label>
+        <input type="number" id="access_hash" name="access_hash" required><br>
+
+        <label for="months_back">Months Back:</label>
+        <input type="number" id="months_back" name="months_back" min="1" max="24" value="3" required><br>
+
+        <label for="session_name">Session Name (optional):</label>
+        <input type="text" id="session_name" name="session_name"><br>
+
+        <button type="submit">Extract Signals</button>
+      </form>
+      <div id="extractResult"></div>
+    </main>
+  </div>
+  <script src="{{ url_for('static', filename='js/index.js') }}"></script> 
+</body>
+</html>

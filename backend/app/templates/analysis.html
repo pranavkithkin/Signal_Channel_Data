@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Analysis | Advanced Analytics</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+  {% include 'nav.html' %}
+  <div class="main-layout">
+    <aside class="sidebar">
+      <h2>Saved Sessions</h2>
+      <ul>
+        {% for session in sessions %}
+          <li>
+            <button onclick="loadAnalysis('{{ session.name }}')">{{ session.name }}</button>
+          </li>
+        {% else %}
+          <li>No sessions found.</li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <main>
+      <h1>Advanced Analysis & Optimization</h1>
+      <div>
+        <label for="analysisSessionSelect">Select Session:</label>
+        <select id="analysisSessionSelect" onchange="loadAnalysis(this.value)">
+          <option value="">--Choose--</option>
+          {% for session in sessions %}
+            <option value="{{ session.name }}">{{ session.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div id="analysisResults"></div>
+      <div id="charts-and-table">
+        <div id="advancedCharts">
+          <!-- Gain Distribution Chart Block -->
+          <div class="chart-block">
+            <label for="gainDistRange">Range:</label>
+            <select id="gainDistRange" onchange="renderGainDistributionChart(selectedSession, this.value)">
+              <option value="1">1hr</option>
+              <option value="2">2hr</option>
+              <option value="4">4hr</option>
+              <option value="8">8hr</option>
+              <option value="12">12hr</option>
+              <option value="24">24hr</option>
+              <option value="48">48hr</option>
+              <option value="72">72hr</option>
+              <option value="168">1 week</option>
+              <option value="336">2 weeks</option>
+            </select>
+            <canvas id="gainDistChart" width="400" height="300"></canvas>
+          </div>
+          <!-- Drawdown Distribution Chart Block -->
+          <div class="chart-block">
+            <label for="drawdownDistRange">Range:</label>
+            <select id="drawdownDistRange" onchange="renderDrawdownDistributionChart(selectedSession, this.value)">
+              <option value="1">1hr</option>
+              <option value="2">2hr</option>
+              <option value="4">4hr</option>
+              <option value="8">8hr</option>
+              <option value="12">12hr</option>
+              <option value="24">24hr</option>
+              <option value="48">48hr</option>
+              <option value="72">72hr</option>
+              <option value="168">1 week</option>
+              <option value="336">2 weeks</option>
+            </select>
+            <canvas id="drawdownDistChart" width="400" height="300"></canvas>
+          </div>
+        </div>
+        <div id="signalsTableContainer">
+          <h2>Extracted Signals</h2>
+          <table id="signalsTable">
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Coin</th>
+                <th>Entry</th>
+                <th>TP</th>
+                <th>SL</th>
+                <th>Outcome</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Filled by JS -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <button onclick="optimizeStopLoss()">Optimize Stop Loss</button>
+      <button onclick="suggestTargets()">Suggest Targets</button>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="{{ url_for('static', filename='js/analysis.js') }}"></script>
+</body>
+</html>

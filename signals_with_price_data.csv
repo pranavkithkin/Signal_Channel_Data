@@ -1,0 +1,99 @@
+timestamp,coin,direction,entry_price,future_high,future_low,raw_message
+2025-05-13 17:36:33+00:00,ETH,Bullish,2595.98,2738.5,2592.49,#ETH BULLISH
+2025-05-13 17:10:44+00:00,ENA,Bullish,0.45,0.4594,0.4305,#ENA BULLISH
+2025-05-13 09:57:53+00:00,MUBARAK,Bullish,0.0644,0.0693,0.0599,#MUBARAK bullish continuation
+2025-05-13 00:44:49+00:00,LUMIA,Bullish,0.428,0.462,0.413,#LUMIA BULLISH
+2025-05-10 23:08:10+00:00,REZ,Bullish,0.01691,0.0195,0.01628,"#REZ BULLISH
+
+2025-05-10 08:06:42+00:00,PEPE,Bullish,#PEPE BULLISH
+2025-05-10 02:12:25+00:00,VANA,Bullish,#VANA BULLISH
+2025-05-10 02:05:40+00:00,VINE,Bullish,#VINE BULLISH
+2025-05-10 00:08:59+00:00,CAKE,Bullish,#CAKE BULLISH
+2025-05-08 10:14:46+00:00,TURBO,Bullish,#TURBO Bullish
+2025-05-08 03:39:02+00:00,EPT,Bullish,#EPT BULLISH
+2025-05-05 02:39:13+00:00,BTC,Bullish,#BTC Bullish "
+2025-05-05 02:15:32+00:00,NKN,Bullish,0.0421,0.0437,0.0389,#NKN Bullish
+2025-05-04 14:19:12+00:00,VIRTUAL,Bullish,1.7187,1.7481,1.6253,#VIRTUAL Bullish continuation
+2025-05-03 15:40:22+00:00,BMT,Bullish,0.1541,0.1553,0.1411,#BMT Bullish
+2025-05-01 01:46:15+00:00,SIGN,Bullish,0.09988,0.102,0.09278,#SIGN BULLISH
+2025-04-30 15:38:37+00:00,VOXEL,Bullish,0.1247,0.1354,0.1132,#VOXEL Bullish
+2025-04-30 15:11:37+00:00,VIRTUAL,Bullish,1.3472,1.4009,1.3058,#VIRTUAL BULLISH
+2025-04-30 09:52:30+00:00,LOKA,Bullish,0.0915,0.0935,0.0878,#LOKA BUllish
+2025-04-30 09:46:44+00:00,NKN,Bullish,0.0439,0.0451,0.0387,#NKN BULLISH
+2025-04-30 00:27:48+00:00,REZ,Bullish,0.01611,0.01663,0.01411,#REZ Bullish
+2025-04-28 07:28:43+00:00,DASH,Bullish,24.27,25.0,23.18,#DASH Bullish
+2025-04-28 05:19:37+00:00,LTC,Bullish,86.37,88.1,85.77,"#LTC Bullish
+
+Hold for midterm."
+2025-04-28 05:03:50+00:00,ZEC,Bullish,36.79,40.12,35.32,#ZEC Bullish
+2025-04-26 18:28:05+00:00,TRUMP,Bullish,15.53,15.85,15.14,#TRUMP BUllish continuation
+2025-04-26 08:22:22+00:00,HIFI,Bullish,0.2424,0.25,0.2215,#HIFI Bullish
+2025-04-25 22:47:23+00:00,VOXEL,Bullish,0.0843,0.0918,0.0789,#VOXEL BULLISH
+2025-04-25 16:09:45+00:00,NKN,Bullish,0.0442,0.0453,0.0413,#NKN Bullish
+2025-04-25 15:47:20+00:00,BTC,Bullish,95013.55,95554.99,94370.35,#BTC Bullish continuation
+2025-04-25 15:26:03+00:00,TAO,Bullish,368.2,370.0,351.2,#TAO BULLISH to 2222$
+2025-04-25 06:41:19+00:00,REZ,Bullish,0.01578,0.0163,0.01506,#REZ BULLISH
+2025-04-25 06:26:57+00:00,RDNT,Bullish,0.02971,0.0299,0.02707,#RDNT Bullish
+2025-04-25 06:02:43+00:00,SUI,Bullish,3.4857,3.7397,3.4606,#SUI BULLISH
+2025-04-25 00:12:57+00:00,FLM,Bullish,0.0286,0.0439,0.0253,#FLM Bullish
+2025-04-23 22:08:59+00:00,BTC,Bullish,93300.0,93841.3,92571.42,#BTC Bullish continuation
+2025-04-22 16:42:47+00:00,BTC,Bullish,90736.86,93888.0,90636.4,#BTC Bullish continuation
+2025-04-22 01:06:45+00:00,MUBARAK,Bullish,0.0303,0.0319,0.0296,#MUBARAK Bullish
+2025-04-19 01:34:34+00:00,ALPACA,Bullish,0.0375,0.0409,0.0359,#ALPACA Bullish
+2025-04-17 15:23:50+00:00,GUN,Bullish,0.05168,0.0555,0.05061,#GUN Bullish
+2025-04-15 19:33:56+00:00,GUN,Bearish,0.0459,0.04802,0.04557,#GUN Bearish
+2025-04-15 19:27:31+00:00,1000CHEEMS,Bearish,0.001356,0.001378,0.001338,#1000CHEEMS Bearish.
+2025-04-14 17:58:37+00:00,KERNEL,Bullish,0.322,0.35,0.307,#KERNEL Bullish
+2025-04-13 22:27:38+00:00,BTC,Bearish,83436.49,85544.3,83169.01,#BTC Bearish continuation
+2025-04-13 22:27:33+00:00,ETH,Bearish,1593.5,1660.32,1581.78,"#ETH Bearish
+
+Targeting to 1111"
+2025-04-13 17:38:42+00:00,FUN,Bullish,0.006865,0.00725,0.006639,#FUN Bullish
+2025-04-13 14:45:46+00:00,BTC,Bearish,84008.61,84990.22,83050.0,#BTC Bearish continuation
+2025-04-13 14:09:26+00:00,ETH,Bearish,1580.01,1649.04,1562.01,"#ETH Bearish
+
+Targeting to 1111"
+2025-04-09 13:47:57+00:00,BTC,Bearish,77242.0,82990.0,76798.87,"#BTC Bearish
+
+Reason is simple: Donald calls to buy the dip"
+2025-04-08 20:30:38+00:00,XRP,Bearish,1.8201,1.8436,1.7218,"#XRP Bearish
+
+TA: Descending Triangle => breaking down => Retest => Continue"
+2025-04-05 18:09:01+00:00,FUN,Bullish,0.008623,0.008861,0.007742,"#FUN Bullish continuation 
+
+IP at 0.0056."
+2025-04-05 10:55:11+00:00,MLN,Bullish,10.74,12.2,10.6,#MLN Bullish
+2025-04-05 09:42:41+00:00,BROCCOLI714,Bullish,0.03514,0.037,0.03146,#BROCCOLI714 Bullish
+2025-04-05 03:41:02+00:00,FUN,Bullish,0.005815,0.010217,0.005724,#FUN bullish
+2025-04-02 14:23:14+00:00,BTC,Bullish,85697.37,88500.0,85445.6,"#BTC Bullish
+
+- TA: End of the consolidation of the triangle and a big move will start soon.
+
+-FA: Negative funding matrix has been accumulating for 1 month.
+
+- CC: Trump tariffs at 2nd is ""Priced in"" | GOLD up 50% should work as a resistance and it is getting cool off soon. Macro is bad but It's about reversal. 
+
+- IP at 79k"
+2025-04-02 06:00:49+00:00,XRP,Bearish,2.0732,2.1366,2.0672,"#XRP bearish
+
+TA: A descending triangle is likely to break down after many touches at horizontal support"
+2025-04-02 05:32:01+00:00,HBAR,Bearish,0.16385,0.1697,0.16243,"#HBAR Bearish
+
+- TA: breakdown the descending triangle => Retesting => continue"
+2025-04-02 04:02:24+00:00,MLN,Bullish,12.1,12.18,10.95,#MLN Bullish.
+2025-04-01 19:21:18+00:00,BTC,Bullish,84970.14,85579.46,84773.58,"#BTC Bullish
+
+- TA: End of the consolidation of the triangle and a big move will start soon.
+
+-FA: Negative funding matrix has been accumulating for 1 month.
+
+- CC: Trump tariffs at 2nd is ""Priced in"" | GOLD up 50% should work as a resistance and it is getting cool off soon. Macro is bad but It's about reversal. 
+
+- IP at 79k"
+2025-03-31 21:18:06+00:00,VIDT,Bullish,0.02526,0.02544,0.02367,"#VIDT Bullish continuation 
+
+TA: U Shape chart
+FA: No fundamental, just like REEF TRB formation."
+2025-03-31 19:44:44+00:00,REZ,Bullish,0.0175,0.01835,0.01629,"#REZ bullish
+
+2025-03-31 15:56:46+00:00,MLN,Bullish,#MLN BULLISH"

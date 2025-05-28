@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Working | Data Analysis</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" />
+</head>
+<body>
+    {% include 'nav.html' %}
+  <div class="main-layout">
+    <aside class="sidebar">
+      <h2>Saved Sessions</h2>
+      <ul>
+        {% for session in sessions %}
+          <li>
+            <button onclick="loadSession('{{ session.name }}')">{{ session.name }}</button>
+          </li>
+        {% else %}
+          <li>No sessions found.</li>
+        {% endfor %}
+      </ul>
+    </aside>
+    <main>
+      <h1>Session Data Analysis</h1>
+      <div>
+        <label for="sessionSelect">Select Session:</label>
+        <select id="sessionSelect" onchange="loadSession(this.value)">
+          <option value="">--Choose--</option>
+          {% for session in sessions %}
+            <option value="{{ session.name }}">{{ session.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+      <div id="sessionData"></div>
+      <div id="charts">
+        <canvas id="equityChart" width="800" height="400"></canvas>
+        <canvas id="winLossChart" width="400" height="400"></canvas>
+        <!-- Add more charts as needed -->
+      </div>
+    </main>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="{{ url_for('static', filename='js/working.js') }}"></script>
+</body>
+</html>

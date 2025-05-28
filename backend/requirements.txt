@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+flask
+pandas
+numpy
+matplotlib
+python-multipart
+python-dotenv
