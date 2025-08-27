@@ -6,3 +6,9 @@ numpy
 matplotlib
 python-multipart
 python-dotenv
+telethon
+nest-asyncio
+python-dateutil
+seaborn
+plotly
+yfinance
